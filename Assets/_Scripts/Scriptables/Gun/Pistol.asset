@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d6061192dd3f164aa08e11088013cd0, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  GunType: 0
+  ModelPrefab: {fileID: 4043241439066821443, guid: 726cd21416e138640a4f2575ffe04009, type: 3}
+  VFXhitPrefab: {fileID: 613433886817584986, guid: 9f5fbcfb6299c2b4c912f3ff44f14463, type: 3}
+  gunSoundClips:
+  - {fileID: 8300000, guid: c36bd036ae7d7d94b895b623c488d224, type: 3}
+  - {fileID: 8300000, guid: 9d80d8d79d6842a47b8b1aa898a912ea, type: 3}
+  - {fileID: 8300000, guid: 0bee76b587ca57240bf9e1367ed35767, type: 3}
+  - {fileID: 8300000, guid: 70232a7a1cb1cbc4a92957e2f80570d4, type: 3}
+  animatorController: {fileID: 9100000, guid: 4510c36f522a4d8449503301d4253eed, type: 2}
+  SpawnPosition: {x: 1, y: -0.5, z: 1.23}
+  SpawnRotation: {x: 0, y: 5, z: 0}
+  DamagePerHit: 1
+  MaxAmmo: 10
+  TimeBeetwenShoots: 0.2

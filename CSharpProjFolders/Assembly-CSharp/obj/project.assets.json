@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Microsoft.Unity.Analyzers/1.17.0": {
+        "type": "package"
+      },
+      "CSharpGenerator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CSharpGenerator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpGenerator.dll": {}
+        }
+      },
+      "CSharpGeneratorDemo/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/CSharpGeneratorDemo.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CSharpGeneratorDemo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Unity.Analyzers/1.17.0": {
+      "sha512": "yg1ThpevWnblJTCIzPw52EUzuzBHdjWT0yxpCfDgFT2ti6HLRB1ZZMoKYYx9U/egqQHL7cfHkPY5psLHCL9AoA==",
+      "type": "package",
+      "path": "microsoft.unity.analyzers/1.17.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Microsoft.Unity.Analyzers.dll",
+        "microsoft.unity.analyzers.1.17.0.nupkg.sha512",
+        "microsoft.unity.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "CSharpGenerator/1.0.0": {
+      "type": "project",
+      "path": "../CSharpGenerator/CSharpGenerator.csproj",
+      "msbuildProject": "../CSharpGenerator/CSharpGenerator.csproj"
+    },
+    "CSharpGeneratorDemo/1.0.0": {
+      "type": "project",
+      "path": "../CSharpGeneratorDemo/CSharpGeneratorDemo.csproj",
+      "msbuildProject": "../CSharpGeneratorDemo/CSharpGeneratorDemo.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "CSharpGenerator >= 1.0.0",
+      "CSharpGeneratorDemo >= 1.0.0",
+      "Microsoft.Unity.Analyzers >= *"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\damia\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+      "outputPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj": {
+              "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj"
+            },
+            "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj": {
+              "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Microsoft.Unity.Analyzers": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

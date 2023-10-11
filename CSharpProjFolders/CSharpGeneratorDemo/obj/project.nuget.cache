@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FpeE9B0REOX6vtRluJbQEt76ueajbRWLbQ/sxX76a2PblQfuf24vcHKz4yRry6EBfDa+BvQbr1fvaW4AuQ1p6g==",
+  "success": true,
+  "projectFilePath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\damia\\.nuget\\packages\\microsoft.unity.analyzers\\1.17.0\\microsoft.unity.analyzers.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}

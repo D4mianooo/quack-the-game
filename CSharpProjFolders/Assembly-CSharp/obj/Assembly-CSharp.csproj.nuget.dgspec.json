@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+        "outputPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\Assembly-CSharp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj": {
+                "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj"
+              },
+              "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj": {
+                "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Unity.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj",
+        "projectName": "CSharpGeneratorDemo",
+        "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\CSharpGeneratorDemo.csproj",
+        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+        "outputPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGeneratorDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Unity.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj",
+        "projectName": "CSharpGenerator",
+        "projectPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\CSharpGenerator.csproj",
+        "packagesPath": "C:\\Users\\damia\\.nuget\\packages\\",
+        "outputPath": "d:\\PROJEKTY\\Quack\\CSharpProjFolders\\CSharpGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\damia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.Unity.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
